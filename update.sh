@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ..
+git checkout main
 npm run build:prod
 cd ai-web1
 rm -rf webroot/*
